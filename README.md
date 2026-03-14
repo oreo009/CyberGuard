@@ -55,9 +55,9 @@ Run the attack scripts to generate security events:
 ### 4. Simulate attacks
 
 Run the attack scripts to generate security events:
-### python attacks/bruteforce.py
-### python attacks/sqlinject.py
-### python attacks/dos.py
+python attacks/bruteforce.py -
+python attacks/sqlinject.py -
+python attacks/dos.py
 
 
 The monitoring dashboard will detect attacks and update the system status in real time.
