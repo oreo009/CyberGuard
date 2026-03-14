@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CyberGuard - Security Dashboard</title>
+</head>
+<body>
+<h2>Security Dashboard</h2>
+<h3>Security Logs</h3>
+<ul>
+{% for log in logs %}
+<li>{{ log.strip() }}</li>
+{% endfor %}
+</ul>
+<a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>
